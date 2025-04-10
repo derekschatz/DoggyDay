@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "DoggyDay",
+    "slug": "doggy-day",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "doggyday",
+    "userInterfaceStyle": "automatic",
+    "entryPoint": "./index.js",
+    "newArchEnabled": true,
+    "sdkVersion": "52.0.0",
+    "ios": {
+      "bundleIdentifier": "com.anonymous.doggyday",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.anonymous.doggyday"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
