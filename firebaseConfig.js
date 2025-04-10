@@ -3,14 +3,22 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
+import {
+  FIREBASE_API_KEY,
+  FIREBASE_AUTH_DOMAIN,
+  FIREBASE_PROJECT_ID,
+  FIREBASE_STORAGE_BUCKET,
+  FIREBASE_DATABASE_URL
+} from '@env';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDFtnuX_RUU-4iINBTa_oJRyQhjy7f8u6c",
-  authDomain: "doggyday-f0a8d.firebaseapp.com",
-  projectId: "doggyday-f0a8d",
-  storageBucket: "doggyday-f0a8d.appspot.com",
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  projectId: FIREBASE_PROJECT_ID,
+  storageBucket: FIREBASE_STORAGE_BUCKET,
+  databaseURL: FIREBASE_DATABASE_URL,
   // messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   // appId: "YOUR_APP_ID",
   // measurementId: "YOUR_MEASUREMENT_ID"

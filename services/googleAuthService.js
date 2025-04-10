@@ -3,15 +3,15 @@ import * as Google from 'expo-auth-session/providers/google';
 import { Platform } from 'react-native';
 import { makeRedirectUri } from 'expo-auth-session';
 import { signInWithGoogle } from './firebaseService';
+import {
+  GOOGLE_CLIENT_ID_IOS,
+  GOOGLE_CLIENT_ID_WEB,
+  GOOGLE_CLIENT_ID_ANDROID
+} from '@env';
 
 // WebBrowser.maybeCompleteAuthSession() needs to be called at the top level
 // This should be called in your App.js or _layout.tsx
 WebBrowser.maybeCompleteAuthSession();
-
-// These need to be registered in your Firebase console and Google Cloud Console
-const GOOGLE_CLIENT_ID_IOS = '599403821410-up67qso1eilohnd465571rvp722o1il8.apps.googleusercontent.com';
-const GOOGLE_CLIENT_ID_ANDROID = 'YOUR_ANDROID_CLIENT_ID.apps.googleusercontent.com';
-const GOOGLE_CLIENT_ID_WEB = '599403821410-5t5nbo9ktiotf0dfhh8bfrn2kigk9ip3.apps.googleusercontent.com';
 
 // Debug redirect URI to see what's being used
 const logRedirectUri = (uri) => {
