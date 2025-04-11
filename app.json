@@ -12,6 +12,7 @@
     "sdkVersion": "52.0.0",
     "ios": {
       "bundleIdentifier": "com.anonymous.doggyday",
+      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true
     },
     "android": {

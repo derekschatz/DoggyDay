@@ -1,11 +1,3 @@
 --- xcodebuild: WARNING: Using the first of multiple matching destinations:
 { platform:iOS Simulator, id:7BC8939A-78F1-492E-8B74-E84A11246196, OS:18.1, name:iPhone 16 Pro }
 { platform:iOS Simulator, id:7BC8939A-78F1-492E-8B74-E84A11246196, OS:18.1, name:iPhone 16 Pro }
-** BUILD FAILED **
-
-
-The following build commands failed:
-	CompileSwift normal arm64 (in target 'ExpoClipboard' from project 'Pods')
-	SwiftCompile normal arm64 Compiling\ ClipboardExceptions.swift,\ ClipboardModule.swift,\ ClipboardOptions.swift,\ ClipboardPasteButton.swift,\ ClipboardPasteButtonRecords.swift,\ NSAttributedString+utilities.swift,\ UIPasteboard+html.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/ClipboardExceptions.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/ClipboardModule.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/ClipboardOptions.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/ClipboardPasteButton.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/ClipboardPasteButtonRecords.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/NSAttributedString+utilities.swift /Users/derekschatz/Documents/GitHub/DoggyDay/node_modules/expo-clipboard/ios/UIPasteboard+html.swift (in target 'ExpoClipboard' from project 'Pods')
-	Building workspace DoggyDay with scheme DoggyDay and configuration Debug
-(3 failures)
